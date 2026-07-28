@@ -30,6 +30,7 @@ security, and code that stays maintainable after the first thousand commits.
 | :--- | :--- | :--- | :---: |
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift | ✅ Built |
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
+| **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python | ✅ Built |
 | **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
 
@@ -88,6 +89,31 @@ your own words — framed as supportive observations, never clinical claims.
 
 <br/>
 
+## 🚇 Metro Route & Schedule Simulator
+
+> **Real transit, modelled honestly.** A multi-line metro simulator that plans journeys, times trains, and prices fares against a real-world network.
+
+A transit network is a graph with awkward real-world constraints bolted on. Trains only
+run during service hours, frequency changes at peak times, and switching lines costs
+minutes that appear on no map — so the shortest route by stops isn't the fastest by clock.
+
+**Highlights**
+
+- Multi-line journey planning with interchange detection and real clock-time itineraries
+- Next-train lookup with peak/off-peak frequency and service-hour awareness
+- Fare calculation, per-line station browsing, and a forgiving menu-driven CLI
+- Data-driven network model — scaled from the two required lines to four without a rewrite
+- Built on real published network data, with assumptions documented where sources were ambiguous
+- Zero third-party dependencies
+
+<sub>Python 3 · standard library only</sub>
+
+<div align="left"><b><a href="projects/metro-simulator/README.md">Read the full case study →</a></b></div>
+
+---
+
+<br/>
+
 ## 🎮 AI Game Replay Analyzer
 
 > 🚧 **In progress** — case study coming soon.
@@ -131,8 +157,9 @@ register — encoding, addressing, control flow, and termination, with nothing h
     ├── focal/
     │   └── README.md                  ← full case study
     ├── journal-io/
-    ├── ai-game-replay-analyzer/
-    └── simulator-assembler/
+    ├── simulator-assembler/
+    ├── metro-simulator/
+    └── ai-game-replay-analyzer/
 ```
 
 Every project follows the same layout: **Overview · Features · Tech Stack ·
