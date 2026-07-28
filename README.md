@@ -41,12 +41,6 @@ security, and code that stays maintainable after the first thousand commits.
 
 > **Focus on what matters.** A goal-driven focus companion that turns study intentions into tracked, shared, and rewarded sessions.
 
-<div align="center">
-<img src="projects/focal/assets/hero.png" alt="Focal — home, focus session, and live study room" width="100%">
-</div>
-
-<br/>
-
 Most productivity apps stop at a timer. Focal closes the whole loop — set a goal,
 schedule it, focus on it in a distraction-shielded session, watch the progress
 accumulate, and when motivation runs thin, do it alongside other people in a
@@ -106,15 +100,14 @@ synchronized study room.
 ├── README.md                          ← you are here
 └── projects/
     ├── focal/
-    │   ├── README.md                  ← full case study
-    │   └── assets/                    ← screenshots
+    │   └── README.md                  ← full case study
     ├── journal-io/
     ├── ai-game-replay-analyzer/
     └── simulator-assembler/
 ```
 
-Every project follows the same layout: **Hero · Overview · Features · Screenshots ·
-Tech Stack · My Contributions · Challenges Solved · Key Takeaways.**
+Every project follows the same layout: **Overview · Features · Tech Stack ·
+Architecture · My Contributions · Challenges Solved · Key Takeaways.**
 
 ---
 

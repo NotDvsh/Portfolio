@@ -4,10 +4,6 @@
 
 <div align="center">
 
-<img src="assets/hero.png" alt="Focal — home, focus session, and live study room" width="100%">
-
-<br/><br/>
-
 ![Platform](https://img.shields.io/badge/Platform-iOS%20%7C%20Android-black?style=flat-square)
 ![Flutter](https://img.shields.io/badge/Flutter-3.12+-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Dart](https://img.shields.io/badge/Dart-3.12-0175C2?style=flat-square&logo=dart&logoColor=white)
@@ -101,100 +97,6 @@ physically unavailable, and the progress worth coming back for.
 | **Permission Transparency** | Every permission request is preceded by an explanation of what it's for and an option to decline without losing the app. |
 | **Account Control** | Profile management, sign-out, and full self-service account deletion. |
 | **Subscription Tier** | Focal Pro gates advanced analytics, premium environments, app blocking, unlimited history, and higher goal/room limits. |
-
----
-
-## 📱 Screenshots
-
-### Onboarding & Authentication
-
-A guided introduction that personalizes the app before the first launch — and asks
-for trust before it asks for permissions.
-
-<div align="center">
-<img src="assets/onboarding-welcome.png" width="23%" alt="Welcome">
-<img src="assets/onboarding-goals.png" width="23%" alt="Goal personalization">
-<img src="assets/onboarding-focus-mode.png" width="23%" alt="Focus mode selection">
-<img src="assets/onboarding-privacy.png" width="23%" alt="Privacy and notification permissions">
-</div>
-
-<div align="center"><sub><b>Welcome</b> · <b>Goal personalization</b> · <b>Focus mode selection</b> · <b>Privacy-first permission request</b></sub></div>
-
-<br/>
-
-<div align="center">
-<img src="assets/auth-create-account.png" width="23%" alt="Account creation">
-</div>
-
-<div align="center"><sub><b>Account creation</b> — social sign-in, with terms surfaced before commitment.</sub></div>
-
----
-
-### Home & Planning
-
-<div align="center">
-<img src="assets/home.png" width="23%" alt="Home">
-<img src="assets/home-insights.png" width="23%" alt="Today's plan and focus insights">
-<img src="assets/goal-create.png" width="23%" alt="Create goal">
-<img src="assets/calendar.png" width="23%" alt="Calendar">
-</div>
-
-<div align="center"><sub><b>Home</b> · <b>Today's plan & focus insights</b> · <b>Goal creation</b> · <b>Calendar planner</b></sub></div>
-
-<br/>
-
-<div align="center">
-<img src="assets/goal-detail.png" width="23%" alt="Goal detail">
-</div>
-
-<div align="center"><sub><b>Goal detail</b> — progress, reminders, and every action for a single goal in one place.</sub></div>
-
----
-
-### Focus Sessions
-
-<div align="center">
-<img src="assets/focus-configure.png" width="23%" alt="Configure focus session">
-<img src="assets/focus-timer.png" width="23%" alt="Focus timer">
-<img src="assets/focus-environments.png" width="23%" alt="Focus environments">
-<img src="assets/app-blocking.png" width="23%" alt="App blocking">
-</div>
-
-<div align="center"><sub><b>Session configuration</b> · <b>Active focus session</b> · <b>Focus environments</b> · <b>App blocking</b></sub></div>
-
-<br/>
-
-<div align="center">
-<img src="assets/app-blocking-picker.png" width="23%" alt="Blocked app picker">
-</div>
-
-<div align="center"><sub><b>Blocked app selection</b> — individual apps or entire categories, shielded only while a session runs.</sub></div>
-
----
-
-### Multiplayer Study Rooms
-
-<div align="center">
-<img src="assets/rooms-home.png" width="23%" alt="Group study home">
-<img src="assets/room-lobby.png" width="23%" alt="Room lobby with invite code">
-<img src="assets/room-session.png" width="23%" alt="Live room session">
-<img src="assets/room-summary.png" width="23%" alt="Session summary">
-</div>
-
-<div align="center"><sub><b>Study rooms</b> · <b>Lobby with shareable invite code</b> · <b>Live synchronized session</b> · <b>Post-session recap</b></sub></div>
-
----
-
-### Progress & Personalization
-
-<div align="center">
-<img src="assets/achievements-wheel.png" width="23%" alt="Hall of achievements">
-<img src="assets/achievements-category.png" width="23%" alt="Achievement category">
-<img src="assets/profile.png" width="23%" alt="Profile">
-<img src="assets/settings-appearance.png" width="23%" alt="Appearance settings">
-</div>
-
-<div align="center"><sub><b>Hall of Achievements</b> · <b>Achievement detail</b> · <b>Profile & recent activity</b> · <b>Theme and environment settings</b></sub></div>
 
 ---
 

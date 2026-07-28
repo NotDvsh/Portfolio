@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<!-- <img src="assets/hero.png" alt="📓 Journal.io" width="100%"> -->
+<!-- hero image: "📓 Journal.io" width="100%"> -->
 
 ![Status](https://img.shields.io/badge/Status-In%20Progress-F59E0B?style=flat-square)
 <!-- Add stack badges here, e.g.
@@ -41,21 +41,6 @@
 | Feature | Description |
 | :--- | :--- |
 | **Feature name** | Short professional description of what it does and why it matters. |
-
----
-
-## 📱 Screenshots
-
-### Group Name
-
-<div align="center">
-<!--
-<img src="assets/screen-one.png" width="23%" alt="Screen one">
-<img src="assets/screen-two.png" width="23%" alt="Screen two">
--->
-</div>
-
-<div align="center"><sub><b>Caption one</b> · <b>Caption two</b></sub></div>
 
 ---
 
