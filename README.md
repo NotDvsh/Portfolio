@@ -31,7 +31,7 @@ security, and code that stays maintainable after the first thousand commits.
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift | ✅ Built |
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
 | **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
-| **[Simulator Assembler ↗](projects/simulator-assembler/README.md)** | _Coming soon_ | — | 🚧 In progress |
+| **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
 
 ---
 
@@ -98,11 +98,25 @@ your own words — framed as supportive observations, never clinical claims.
 
 <br/>
 
-## ⚙️ Simulator Assembler
+## ⚙️ Assembler & Simulator
 
-> 🚧 **In progress** — case study coming soon.
+> **From assembly source to executed instruction.** A two-stage RISC-V toolchain that assembles source into machine code and executes it on a virtual processor.
 
-<div align="left"><b><a href="projects/simulator-assembler/README.md">View project →</a></b></div>
+Most software sits on top of abstractions like these. Building both ends means
+understanding what actually happens between a line of source and a value landing in a
+register — encoding, addressing, control flow, and termination, with nothing hand-waved.
+
+**Highlights**
+
+- Full instruction-format coverage, symbolic label resolution, and ABI register naming
+- A layered validation system that reports precisely what's wrong instead of emitting bad machine code
+- A processor model with a complete register file, memory regions, and correct signed/unsigned semantics
+- Per-instruction state tracing, verified against reference output across easy and hard cases
+- Zero third-party dependencies
+
+<sub>Python 3 · RISC-V (32-bit integer subset) · standard library only</sub>
+
+<div align="left"><b><a href="projects/simulator-assembler/README.md">Read the full case study →</a></b></div>
 
 ---
 
