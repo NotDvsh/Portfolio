@@ -34,7 +34,6 @@ security, and code that stays maintainable after the first thousand commits.
 | **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python | ✅ Built |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
 | **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL | ✅ Built |
-| **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 
 ---
 
@@ -166,29 +165,17 @@ getting membership periods right in every path.
 
 <br/>
 
-## 🎮 AI Game Replay Analyzer
-
-> 🚧 **In progress** — case study coming soon.
-
-<div align="left"><b><a href="projects/ai-game-replay-analyzer/README.md">View project →</a></b></div>
-
----
-
-<br/>
-
 ## 📁 Repository Structure
 
 ```
 .
-├── README.md                          ← you are here
+├── README.md                    ← you are here
 └── projects/
     ├── focal/
-    │   └── README.md                  ← full case study
     ├── journal-io/
-    ├── simulator-assembler/
     ├── metro-simulator/
-    ├── gym-management-system/
-    └── ai-game-replay-analyzer/
+    ├── simulator-assembler/
+    └── gym-management-system/   ← each contains a full case study README
 ```
 
 Every project follows the same layout: **Overview · Features · Tech Stack ·
