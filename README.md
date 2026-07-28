@@ -29,7 +29,7 @@ security, and code that stays maintainable after the first thousand commits.
 | Project | What it is | Stack | Status |
 | :--- | :--- | :--- | :---: |
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift | ✅ Built |
-| **[Journal.io ↗](projects/journal-io/README.md)** | _Coming soon_ | — | 🚧 In progress |
+| **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
 | **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 | **[Simulator Assembler ↗](projects/simulator-assembler/README.md)** | _Coming soon_ | — | 🚧 In progress |
 
@@ -63,11 +63,26 @@ synchronized study room.
 
 <br/>
 
-## 📓 Journal.io
+## 📓 Journal.IO
 
-> 🚧 **In progress** — case study coming soon.
+> **Reflection that adds up.** A privacy-conscious journaling app that turns private writing into understandable trends and practical next steps.
 
-<div align="left"><b><a href="projects/journal-io/README.md">View project →</a></b></div>
+Most journals store thoughts and do nothing with them. Journal.IO reads back what
+you've written and surfaces the recurring themes, mood shifts, and habits sitting in
+your own words — framed as supportive observations, never clinical claims.
+
+**Highlights**
+
+- AI-assisted weekly insights, behavioral trends, and an interactive reflection Mind Map
+- Structured, non-blocking analysis — writing never waits on a model call
+- Privacy as architecture: full AI opt-out, biometric lock, hidden entries, export and deletion
+- Mood check-ins, tags, calendar history, and search across every entry
+- Goals, streaks, achievements, and on-device daily reminders
+- iOS home-screen widgets for one-tap capture, plus RevenueCat subscriptions
+
+<sub>React Native · TypeScript · Express · MongoDB · OpenAI · SwiftUI/WidgetKit</sub>
+
+<div align="left"><b><a href="projects/journal-io/README.md">Read the full Journal.IO case study →</a></b> · <b><a href="https://journalio.app">journalio.app ↗</a></b></div>
 
 ---
 
