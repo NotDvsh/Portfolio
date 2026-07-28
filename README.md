@@ -31,8 +31,8 @@ security, and code that stays maintainable after the first thousand commits.
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift | ✅ Built |
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
 | **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python | ✅ Built |
-| **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
+| **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 
 ---
 
@@ -114,16 +114,6 @@ minutes that appear on no map — so the shortest route by stops isn't the faste
 
 <br/>
 
-## 🎮 AI Game Replay Analyzer
-
-> 🚧 **In progress** — case study coming soon.
-
-<div align="left"><b><a href="projects/ai-game-replay-analyzer/README.md">View project →</a></b></div>
-
----
-
-<br/>
-
 ## ⚙️ Assembler & Simulator
 
 > **From assembly source to executed instruction.** A two-stage RISC-V toolchain that assembles source into machine code and executes it on a virtual processor.
@@ -143,6 +133,16 @@ register — encoding, addressing, control flow, and termination, with nothing h
 <sub>Python 3 · RISC-V (32-bit integer subset) · standard library only</sub>
 
 <div align="left"><b><a href="projects/simulator-assembler/README.md">Read the full case study →</a></b></div>
+
+---
+
+<br/>
+
+## 🎮 AI Game Replay Analyzer
+
+> 🚧 **In progress** — case study coming soon.
+
+<div align="left"><b><a href="projects/ai-game-replay-analyzer/README.md">View project →</a></b></div>
 
 ---
 
