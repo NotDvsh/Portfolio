@@ -27,13 +27,13 @@ security, and code that stays maintainable after the first thousand commits.
 
 ## 📌 Projects
 
-| Project | What it is | Stack | Status |
-| :--- | :--- | :--- | :---: |
-| **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift | ✅ Built |
-| **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
-| **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python | ✅ Built |
-| **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
-| **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL | ✅ Built |
+| Project | What it is | Stack |
+| :--- | :--- | :--- |
+| **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift |
+| **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI |
+| **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python |
+| **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V |
+| **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL |
 
 ---
 
