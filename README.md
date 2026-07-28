@@ -32,6 +32,7 @@ security, and code that stays maintainable after the first thousand commits.
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI | ✅ Built |
 | **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python | ✅ Built |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V | ✅ Built |
+| **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL | ✅ Built |
 | **[AI Game Replay Analyzer ↗](projects/ai-game-replay-analyzer/README.md)** | _Coming soon_ | — | 🚧 In progress |
 
 ---
@@ -138,6 +139,32 @@ register — encoding, addressing, control flow, and termination, with nothing h
 
 <br/>
 
+## 🏋️ Gym Management System
+
+> **One system, three kinds of user.** A database-backed management application handling gym members, staff, classes, and training schedules from a single terminal interface.
+
+A genuine multi-user application rather than a script with a menu — persistent
+relational data, three roles with different views of it, and the interesting work in
+the parts most projects skip: validating input before it reaches the database and
+getting membership periods right in every path.
+
+**Highlights**
+
+- Three distinct role flows — administrator, staff, and member — each with its own permissions
+- Seven membership tiers with automatic expiry calculation, and extensions that build on existing time rather than discarding it
+- Trainer browsing and personal session booking
+- A reusable validation layer covering identifiers, dates, times, emails, and password strength
+- Parameterised queries used consistently throughout
+- BMI calculation with plotted results, formatted table output, and a persistent feedback log
+
+<sub>Python 3 · MySQL · Matplotlib · PrettyTable</sub>
+
+<div align="left"><b><a href="projects/gym-management-system/README.md">Read the full case study →</a></b></div>
+
+---
+
+<br/>
+
 ## 🎮 AI Game Replay Analyzer
 
 > 🚧 **In progress** — case study coming soon.
@@ -159,6 +186,7 @@ register — encoding, addressing, control flow, and termination, with nothing h
     ├── journal-io/
     ├── simulator-assembler/
     ├── metro-simulator/
+    ├── gym-management-system/
     └── ai-game-replay-analyzer/
 ```
 
