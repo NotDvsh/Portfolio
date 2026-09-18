@@ -31,6 +31,7 @@ security, and code that stays maintainable after the first thousand commits.
 | :--- | :--- | :--- |
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift |
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI |
+| **[NSS IIIT Delhi ↗](projects/nss-iiitd/README.md)** | Official site for IIIT Delhi's NSS unit — static, dependency-free, with a build that fails on insecure markup | Vite · Vanilla JS · CSS · sharp |
 | **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V |
 | **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL |
@@ -85,6 +86,32 @@ your own words — framed as supportive observations, never clinical claims.
 <sub>React Native · TypeScript · Express · MongoDB · OpenAI · SwiftUI/WidgetKit</sub>
 
 <div align="left"><b><a href="projects/journal-io/README.md">Read the full Journal.IO case study →</a></b> · <b><a href="https://journalio.app">journalio.app ↗</a></b></div>
+
+---
+
+<br/>
+
+## 🤝 NSS IIIT Delhi — Unit Website
+
+> **A public record, not a brochure.** The official site for IIIT Delhi's National Service Scheme unit, built so that every fact on it can be traced to a source and the build refuses to ship an insecure page.
+
+The unit's previous site advertised invented statistics, a placeholder team and stock
+photography. This one states only what the unit can prove: twenty events re-derived
+from its own reports and photograph EXIF, rendered from a single chronology file so the
+count, the timeline, the year chart and the front page can never disagree.
+
+**Highlights**
+
+- One chronology file renders the Events page, the home rail, the year chart and every count at build time
+- A build-time security audit that **fails the build** on an inline handler, style attribute, form, iframe or undeclared origin
+- Hash-pinned Content-Security-Policy with `default-src 'none'` and Trusted Types, shipped as headers for any host plus a meta fallback
+- Six static pages, no framework, no runtime dependencies, zero third-party requests
+- ~12 KB of JavaScript, all of it additive — every page is complete before a module boots
+- AVIF/WebP/JPEG responsive ladder across seven widths, and a post-build crawler that fails on a dead link or anchor
+
+<sub>Vite 5 · Vanilla JS · CSS · sharp · Built as Web Development Lead, NSS IIIT Delhi core team 2026–27</sub>
+
+<div align="left"><b><a href="projects/nss-iiitd/README.md">Read the full case study →</a></b></div>
 
 ---
 
@@ -173,6 +200,7 @@ getting membership periods right in every path.
 └── projects/
     ├── focal/
     ├── journal-io/
+    ├── nss-iiitd/
     ├── metro-simulator/
     ├── simulator-assembler/
     └── gym-management-system/   ← each contains a full case study README
