@@ -32,6 +32,7 @@ security, and code that stays maintainable after the first thousand commits.
 | **[Focal ↗](projects/focal/README.md)** | Cross-platform focus & study app with real-time multiplayer study rooms | Flutter · Firebase · Swift |
 | **[Journal.IO ↗](projects/journal-io/README.md)** | Privacy-conscious journaling app with AI-assisted pattern insights | React Native · Node · MongoDB · OpenAI |
 | **[NSS IIIT Delhi ↗](projects/nss-iiitd/README.md)** | Official site for IIIT Delhi's NSS unit — static, dependency-free, with a build that fails on insecure markup | Vite · Vanilla JS · CSS · sharp |
+| **[Canvas Studio ↗](projects/canvas-studio/README.md)** | Local-first design tool in the browser — infinite canvas, undoable commands, vector PDF export, and a validated AI layout assistant | React · TypeScript · Konva · Zustand · IndexedDB |
 | **[Metro Simulator ↗](projects/metro-simulator/README.md)** | Multi-line transit simulator with journey planning, scheduling, and fares | Python |
 | **[Assembler & Simulator ↗](projects/simulator-assembler/README.md)** | RISC-V toolchain — assembles source to machine code and executes it | Python · RISC-V |
 | **[Gym Management System ↗](projects/gym-management-system/README.md)** | Multi-role, database-backed management system for members, staff, and classes | Python · MySQL |
@@ -112,6 +113,32 @@ count, the timeline, the year chart and the front page can never disagree.
 <sub>Vite 5 · Vanilla JS · CSS · sharp · Built as Web Development Lead, NSS IIIT Delhi core team 2026–27</sub>
 
 <div align="left"><b><a href="projects/nss-iiitd/README.md">Read the full case study →</a></b></div>
+
+---
+
+<br/>
+
+## 🎨 Canvas Studio
+
+> **A design tool that never leaves your machine.** A local-first, desktop-class vector canvas that runs entirely in the browser — no backend, no accounts, nothing uploaded.
+
+Most of the work in an editor isn't drawing shapes — it's keeping state honest while
+the user drags at 60 fps, undoes across pages, restores a deleted image, or asks a
+language model to tidy the layout. Canvas Studio is built around making the list of
+things that can change the document as short as possible.
+
+**Highlights**
+
+- Infinite canvas with cursor-pivoted zoom (1%–800%), smart guides, snapping, groups, and non-destructive image crop
+- Every document operation is an undoable command — including deleting a page
+- AI assistant that sees the canvas and its images; the model only *proposes* operations, which are validated as hostile input and applied as a single undo step
+- Swappable AI backends: a built-in offline layout engine, Claude, or any OpenAI-compatible endpoint
+- Hand-rolled vector PDF export, and IndexedDB persistence with debounced autosave
+- A build-time check that fails on the one Zustand selector pattern that crashes the tab with no stack trace
+
+<sub>React · TypeScript · Konva · Zustand · Tailwind CSS 4 · Vite · IndexedDB · ~13,500 lines of TypeScript</sub>
+
+<div align="left"><b><a href="projects/canvas-studio/README.md">Read the full Canvas Studio case study →</a></b></div>
 
 ---
 
@@ -201,6 +228,7 @@ getting membership periods right in every path.
     ├── focal/
     ├── journal-io/
     ├── nss-iiitd/
+    ├── canvas-studio/
     ├── metro-simulator/
     ├── simulator-assembler/
     └── gym-management-system/   ← each contains a full case study README
