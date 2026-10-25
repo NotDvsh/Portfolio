@@ -131,12 +131,10 @@ flowchart LR
 
 ## 👤 My Contributions
 
-I designed and built Journal.IO end to end — the React Native experience, the
-Express/MongoDB backend, authentication, journaling workflows, the AI insight
-pipeline, privacy controls, subscription flows, reminders, and iOS widgets — along
-with product UX, App Store readiness, testing, and deployment.
+I helped my brother build Journal.IO. It is a team project, and this page documents
+the whole app and the engineering decisions behind it — not a record of solo work.
 
-| Area | What I built |
+| Area | What the app covers |
 | :--- | :--- |
 | **Authentication** | Email/password, Google, and Apple sign-in, with email verification and password reset. |
 | **Journaling Core** | Entry writing, mood tracking, tagging, editing, calendar history, and search. |
@@ -146,8 +144,6 @@ with product UX, App Store readiness, testing, and deployment.
 | **Privacy** | Biometric lock, hidden entries, data export and deletion, and safe AI opt-out behavior. |
 | **Native iOS** | Home-screen widgets and the native bridges behind them. |
 | **Experience & Quality** | Onboarding, themes, haptics, responsive polish, tests, architecture docs, and deployment setup. |
-
-<sub>139 non-merge commits, all authored by me.</sub>
 
 ---
 
@@ -220,7 +216,7 @@ backed by native bridges, so capture takes one tap.
 
 ## 🎯 Key Takeaways
 
-- **Full-stack ownership.** Mobile client, API, database, AI pipeline, native modules, payments, and deployment — designed and shipped by one person.
+- **Full-stack exposure.** Mobile client, API, database, AI pipeline, native modules, payments, and deployment — the whole stack of a shipped product.
 - **Responsible AI product sense.** The hard part wasn't calling a model; it was deciding what the model is allowed to say, and what happens when a user says no.
 - **Privacy as architecture.** Opt-out, biometric lock, export, and deletion are structural features, not settings-screen decoration.
 - **Native fluency where it counts.** SwiftUI and WidgetKit used precisely where React Native alone couldn't deliver the experience.
