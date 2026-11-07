@@ -61,6 +61,8 @@ synchronized study room.
 
 <sub>Flutter · Dart · Firebase · Swift · ~47,000 lines of Dart · 30+ screens</sub>
 
+Focal’s website recorded **2,230 visits** and **3,070 pageviews** over 30 days (October 8–November 7, 2026). [See the traffic report and Cloudflare screenshots →](projects/focal/traction.md)
+
 <div align="left"><b><a href="projects/focal/README.md">Read the full Focal case study →</a></b></div>
 
 ---

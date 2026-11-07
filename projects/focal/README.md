@@ -31,6 +31,10 @@ knowing what to do, but staying with it.
 and doing by making the plan visible, the session frictionless, the distractions
 physically unavailable, and the progress worth coming back for.
 
+## Website traction
+
+Focal’s website recorded **2,230 visits** and **3,070 pageviews** in the 30 days ending November 7, 2026. [See the traffic report and Cloudflare screenshots →](traction.md)
+
 ---
 
 ## ✨ Features
